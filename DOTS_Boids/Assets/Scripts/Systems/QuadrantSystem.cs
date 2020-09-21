@@ -3,6 +3,7 @@ using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
 using Unity.Collections;
+using Unity.Burst;
 
 public struct QuadData
 {
@@ -16,7 +17,7 @@ public class QuadrantSystem : SystemBase
 {
     public static NativeMultiHashMap<float3, QuadData> quadrantMultiHashMap;
 
-    public readonly static int cellSize = 5;
+    public readonly static int cellSize = 3;
 
     public static float3 GetPositionHMKey(float3 position)
     {
@@ -52,6 +53,7 @@ public class QuadrantSystem : SystemBase
         base.OnDestroy();
     }
     
+    [BurstCompile]
     protected override void OnUpdate()
     {
         EntityQuery entityQuery = GetEntityQuery(typeof(BoidData));
@@ -66,7 +68,7 @@ public class QuadrantSystem : SystemBase
         Entities.ForEach((in Entity entity, in Translation pos, in Rotation rot, in BoidData bData) =>
         {
             float3 entityPosKey = GetPositionHMKey(pos.Value);
-            DebugDrawQuadrant(pos.Value);
+            //DebugDrawQuadrant(pos.Value);
             quadMultiHashMap.Add(entityPosKey, new QuadData
             {
                 entity = entity,

@@ -8,6 +8,7 @@ public class FibonacciDebug : MonoBehaviour
     public float turnFraction = 0f;
     [Range(0f, 1f)]
     public float pow = 0.5f;
+    public int startNum = 0;
 
     public int numPoints = 0;
 
@@ -31,8 +32,11 @@ public class FibonacciDebug : MonoBehaviour
             float x = Mathf.Sin(inclination) * Mathf.Cos(azimuth);
             float y = Mathf.Sin(inclination) * Mathf.Sin(azimuth);
             float z = Mathf.Cos(inclination);
-
-            PlotPoint(x, y, z, Color.blue);
+            if (i <= (numPoints/4)*3)
+            {
+                PlotPoint(x, y, z, Color.blue);
+            }
+            
         }
     }
 

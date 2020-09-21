@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 738695267224080431}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -95,13 +95,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSpeed: 2
-  maxSpeed: 5
-  maxTurnSpeed: 4
+  maxSpeed: 4
+  maxTurnSpeed: 3
   perceptionRadius: 0
-  sizeRadius: 1.5
-  alignmentWeight: 0.4
-  cohesionWeight: 0.4
-  separationWeight: 1
+  sizeRadius: 1
+  alignmentWeight: 0
+  cohesionWeight: 0
+  separationWeight: 0
 --- !u!114 &468716030404281538
 MonoBehaviour:
   m_ObjectHideFlags: 0

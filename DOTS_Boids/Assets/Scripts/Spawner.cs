@@ -29,7 +29,7 @@ public class Spawner : MonoBehaviour
         entityManager = defaultWorld.EntityManager;
         assetStore = new BlobAssetStore();
 
-        GameObjectConversionSettings settings = GameObjectConversionSettings.FromWorld(defaultWorld, null);
+        GameObjectConversionSettings settings = GameObjectConversionSettings.FromWorld(defaultWorld, assetStore);
         entityPrefab = GameObjectConversionUtility.ConvertGameObjectHierarchy(gameObjectPrefab, settings);
 
         //InstantiateEntityGrid(xSize, ySize, spacing);
@@ -43,9 +43,9 @@ public class Spawner : MonoBehaviour
         {
             Value = position
         });
-        entityManager.SetComponentData(myEntity, new Rotation
+        entityManager.AddComponentData(myEntity, new ObstacleVectors
         {
-            Value = quaternion.LookRotationSafe((position - new float3(gameObject.transform.position)), math.up())
+            blobAsset = obstacleVectorsBlobAssetConstructor.blobAssetReference
         });
         entityManager.SetComponentData(myEntity, new Rotation
         {
@@ -63,9 +63,9 @@ public class Spawner : MonoBehaviour
 
     private void InstantiateEntityGrid(int dmX, int dmY, float spacing = 1f)
     {
-        for (int i = 0; i < dmX; i++)
+        for (int i = dmX; i > 0; i--)
         {
-            for (int j = 0; j < dmY; j++)
+            for (int j = dmY; j > 0; j--)
             {
                 InstantiateEntity(new float3(i * spacing, j * spacing, 0f));
             }

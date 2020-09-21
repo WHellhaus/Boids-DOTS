@@ -29,31 +29,12 @@ public class obstacleVectorsBlobAssetConstructor : GameObjectConversionSystem
                 float x = math.sin(inclination) * math.cos(azimuth);
                 float y = math.sin(inclination) * math.sin(azimuth);
                 float z = math.cos(inclination);
-                obsVectorArray[i] = new float3(x, y, z);
+                //if(i < (int)(numViewDirections * 0.9f))
+                    obsVectorArray[i] = new float3(x, y, z);
             }
 
             blobAssetReference = blobBuilder.CreateBlobAssetReference<ObstacleVectorsBlobAsset>(Allocator.Persistent);
-            Debug.Log(blobAssetReference.Value.vectorsArray.Length);            
+            //Debug.Log(blobAssetReference.Value.vectorsArray.Length);            
         }
     }
-
-    //boidObstacleVectors()
-    //{
-    //    directions = new float3[boidObstacleVectors.numViewDirections];
-
-    //    float goldenRatio = (1 + Mathf.Sqrt(5)) / 2;
-    //    float angleIncrement = Mathf.PI * 2 * goldenRatio;
-
-    //    for (int i = 0; i < numViewDirections; i++)
-    //    {
-    //        float t = (float)i / numViewDirections;
-    //        float inclination = Mathf.Acos(1 - 2 * t);
-    //        float azimuth = angleIncrement * i;
-
-    //        float x = Mathf.Sin(inclination) * Mathf.Cos(azimuth);
-    //        float y = Mathf.Sin(inclination) * Mathf.Sin(azimuth);
-    //        float z = Mathf.Cos(inclination);
-    //        directions[i] = new float3(x, y, z);
-    //    }
-    //}
 }
