@@ -30,7 +30,7 @@ public class obstacleVectorsBlobAssetConstructor : GameObjectConversionSystem
                 float y = math.sin(inclination) * math.sin(azimuth);
                 float z = math.cos(inclination);
                 //if(i < (int)(numViewDirections * 0.9f))
-                    obsVectorArray[i] = new float3(x, y, z);
+                obsVectorArray[i] = new float3(x, y, z);
             }
 
             blobAssetReference = blobBuilder.CreateBlobAssetReference<ObstacleVectorsBlobAsset>(Allocator.Persistent);

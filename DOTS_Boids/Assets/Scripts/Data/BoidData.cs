@@ -14,4 +14,6 @@ public struct BoidData : IComponentData
     public float alignmentWeight;
     public float cohesionWeight;
     public float separationWeight;
+
+    public float3 acceleration;
 }

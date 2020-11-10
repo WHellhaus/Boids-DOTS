@@ -72,6 +72,10 @@
     {
       "FullName": "Unity.Mathematics.Extensions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
       "LastWriteTime": "2020-09-17T02:52:10Z"
+    },
+    {
+      "FullName": "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2020-11-09T22:05:46Z"
     }
   ],
   "Functions": [
@@ -1416,6 +1420,265 @@
         6,
         8,
         7
+      ]
+    },
+    {
+      "FullName": "System.Void QuadrantSystem/<>c__DisplayClass_OnUpdate_LambdaJob0::RunWithoutJobSystem(Unity.Entities.ArchetypeChunkIterator*,System.Void*)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "77db58ac998b8bffbc1984a96419d7ad",
+      "LinkName": "F86543F380CD4120",
+      "AssemblyDependencyIndices": [
+        18,
+        1,
+        2,
+        4,
+        7,
+        5,
+        6,
+        8,
+        16,
+        11,
+        10
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Entities.JobChunkExtensions/JobChunkProducer`1<ObstacleAvoidSystem/<>c__DisplayClass_OnUpdate_LambdaJob0>::Execute(Unity.Entities.JobChunkExtensions/JobChunkWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "9f2eb3810d85ed5f790dd0d2b8ff86f4",
+      "LinkName": "143F7BBD3105F332",
+      "AssemblyDependencyIndices": [
+        4,
+        18,
+        1,
+        2,
+        5,
+        6,
+        14,
+        8,
+        16,
+        7,
+        11,
+        10
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<ObstacleAvoidSystem/ColliderCastJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "6af5790d6660f72a3a5b5f71842f42a6",
+      "LinkName": "6C30017833DD72A1",
+      "AssemblyDependencyIndices": [
+        5,
+        18,
+        6,
+        14,
+        8,
+        1,
+        2,
+        4,
+        7,
+        11,
+        10
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Entities.JobChunkExtensions/JobChunkProducer`1<FindAccelerationSystem/<>c__DisplayClass_OnStartRunning_LambdaJob0>::Execute(Unity.Entities.JobChunkExtensions/JobChunkWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "e23a6644437cbce1a8e9a3589339a2f0",
+      "LinkName": "8D04878ED64E9511",
+      "AssemblyDependencyIndices": [
+        4,
+        18,
+        1,
+        2,
+        5,
+        6,
+        8,
+        16,
+        7,
+        11,
+        10
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Entities.JobChunkExtensions/JobChunkProducer`1<FindAccelerationSystem/<>c__DisplayClass_OnUpdate_LambdaJob0>::Execute(Unity.Entities.JobChunkExtensions/JobChunkWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "6a4a50c08c5f59c15ba11e9fe06f48ae",
+      "LinkName": "0A8C02AB68FFDD39",
+      "AssemblyDependencyIndices": [
+        4,
+        18,
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        16,
+        11,
+        10
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Entities.JobChunkExtensions/JobChunkProducer`1<MovementSystem/<>c__DisplayClass_OnUpdate_LambdaJob0>::Execute(Unity.Entities.JobChunkExtensions/JobChunkWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "060225688dc0fd10a303331f4e7dfc0e",
+      "LinkName": "FF91928A409B865F",
+      "AssemblyDependencyIndices": [
+        4,
+        18,
+        1,
+        2,
+        5,
+        6,
+        16,
+        8,
+        7,
+        11,
+        10
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Entities.JobChunkExtensions/JobChunkProducer`1<ObstacleAvoidSystem/<>c__DisplayClass_OnUpdate_LambdaJob1>::Execute(Unity.Entities.JobChunkExtensions/JobChunkWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "5d6a2e5b2943dd23ece27041ac7837aa",
+      "LinkName": "43390566E3B67065",
+      "AssemblyDependencyIndices": [
+        4,
+        18,
+        1,
+        2,
+        5,
+        6,
+        14,
+        8,
+        7,
+        11,
+        10,
+        0,
+        9
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Entities.JobChunkExtensions/JobChunkProducer`1<ObstacleAvoidSystem/<>c__DisplayClass_OnUpdate_LambdaJob2>::Execute(Unity.Entities.JobChunkExtensions/JobChunkWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "ad00e1504b9bd1e49a5627c2d3fe08c5",
+      "LinkName": "00140FC8E42EE375",
+      "AssemblyDependencyIndices": [
+        4,
+        18,
+        1,
+        2,
+        5,
+        6,
+        14,
+        8,
+        16,
+        7,
+        11,
+        10
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Entities.JobChunkExtensions/JobChunkProducer`1<ObstacleAvoidSystem/<>c__DisplayClass_OnUpdate_LambdaJob3>::Execute(Unity.Entities.JobChunkExtensions/JobChunkWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "182f67c111c36c8b14422a3b79495566",
+      "LinkName": "50A4EB94DF8118D8",
+      "AssemblyDependencyIndices": [
+        4,
+        18,
+        1,
+        2,
+        5,
+        6,
+        14,
+        8,
+        16,
+        7,
+        11,
+        10,
+        0,
+        9
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<Unity.Entities.EntityManager/MoveAllChunksJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "1b753f972e84b443f9e0208a03a2f3d0",
+      "LinkName": "FF5E89918B073665",
+      "AssemblyDependencyIndices": [
+        5,
+        4,
+        6,
+        1,
+        2,
+        7
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<Unity.Entities.EntityManager/ChunkPatchEntities>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "60f9cb6930061af155ef0bb982f67225",
+      "LinkName": "D0CB6D6C02265679",
+      "AssemblyDependencyIndices": [
+        5,
+        4,
+        6,
+        1,
+        2,
+        7,
+        8
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Unity.Entities.EntityManager/RemapAllChunksJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "1c4d4d55d4de2726c091a9c53165e49c",
+      "LinkName": "1E10162B8432AA2F",
+      "AssemblyDependencyIndices": [
+        5,
+        4,
+        6,
+        1,
+        2,
+        7
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Unity.Entities.EntityManager/RemapAllArchetypesJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "cc5d26f4e4e063ebe994032af30939bf",
+      "LinkName": "30A24EB3719501E3",
+      "AssemblyDependencyIndices": [
+        5,
+        4,
+        6,
+        1,
+        2,
+        7,
+        8,
+        11,
+        10,
+        0,
+        9
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<Unity.Transforms.ParentSystem/GatherChildEntities>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "5eb8c7f956529eed5d8005a05315d32c",
+      "LinkName": "4DBBB04EA08E446F",
+      "AssemblyDependencyIndices": [
+        5,
+        16,
+        6,
+        1,
+        2,
+        4,
+        7,
+        8,
+        0,
+        9,
+        10
       ]
     }
   ]

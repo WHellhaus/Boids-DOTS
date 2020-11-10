@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 468716030404281539}
   - component: {fileID: 468716030404281538}
   - component: {fileID: 468716030404281541}
+  - component: {fileID: 6340692722840720769}
+  - component: {fileID: 5706618575647577220}
   m_Layer: 0
   m_Name: Pyramid
   m_TagString: Untagged
@@ -99,9 +101,13 @@ MonoBehaviour:
   maxTurnSpeed: 3
   perceptionRadius: 0
   sizeRadius: 1
-  alignmentWeight: 0
-  cohesionWeight: 0
-  separationWeight: 0
+  alignmentWeight: 0.7
+  cohesionWeight: 0.7
+  separationWeight: 0.7
+  acceleration:
+    x: 0
+    y: 0
+    z: 0
 --- !u!114 &468716030404281538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,6 +134,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity:
+    x: 0
+    y: 0
+    z: 0
+--- !u!114 &6340692722840720769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738695267224080431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0d3937001d7409c9311f1ae7bbb638, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  acceleration:
+    x: 0
+    y: 0
+    z: 0
+--- !u!114 &5706618575647577220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738695267224080431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6609b3be5ba146d494769792e857337, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  acceleration:
     x: 0
     y: 0
     z: 0
