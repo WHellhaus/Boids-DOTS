@@ -101,9 +101,9 @@ MonoBehaviour:
   maxTurnSpeed: 3
   perceptionRadius: 0
   sizeRadius: 1
-  alignmentWeight: 0.7
-  cohesionWeight: 0.7
-  separationWeight: 0.7
+  alignmentWeight: 1
+  cohesionWeight: 1
+  separationWeight: 1
   acceleration:
     x: 0
     y: 0

@@ -43,10 +43,10 @@ public class Spawner : MonoBehaviour
         {
             Value = position
         });
-        entityManager.AddComponentData(myEntity, new ObstacleVectors
-        {
-            blobAsset = obstacleVectorsBlobAssetConstructor.blobAssetReference
-        });
+        //entityManager.AddComponentData(myEntity, new ObstacleVectors
+        //{
+        //    blobAsset = obstacleVectorsBlobAssetConstructor.blobAssetReference
+        //});
         entityManager.SetComponentData(myEntity, new Rotation
         {
             Value = quaternion.LookRotationSafe((position - new float3(gameObject.transform.position)), math.up())
