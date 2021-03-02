@@ -114,7 +114,7 @@ namespace Unity.Rendering
             {
                 if (s_JobReflectionData == IntPtr.Zero)
                 {
-                    s_JobReflectionData = JobsUtility.CreateJobReflectionData(typeof(JobNativeMultiHashMapVisitKeyMutableValueProducer<TJob, TKey, TValue>), typeof(TJob), JobType.ParallelFor, (ExecuteJobFunction)Execute);
+                    s_JobReflectionData = JobsUtility.CreateJobReflectionData(typeof(JobNativeMultiHashMapVisitKeyMutableValueProducer<TJob, TKey, TValue>), typeof(TJob), (ExecuteJobFunction)Execute);
                 }
 
                 return s_JobReflectionData;
@@ -172,7 +172,7 @@ namespace Unity.Rendering
                 UnsafeUtility.AddressOf(ref jobProducer)
                 , JobNativeMultiHashMapVisitKeyMutableValueProducer<TJob, TKey, TValue>.Initialize()
                 , dependsOn
-                , ScheduleMode.Batched
+                , ScheduleMode.Parallel
             );
 
             return JobsUtility.ScheduleParallelFor(ref scheduleParams, hashMap.GetUnsafeBucketData().bucketCapacityMask + 1, minIndicesPerJobCount);
@@ -348,7 +348,7 @@ namespace Unity.Rendering
             {
                 if (s_JobReflectionData == IntPtr.Zero)
                 {
-                    s_JobReflectionData = JobsUtility.CreateJobReflectionData(typeof(JobNativeMultiHashMapVisitKeyValueProducer<TJob, TKey, TValue>), typeof(TJob), JobType.ParallelFor, (ExecuteJobFunction)Execute);
+                    s_JobReflectionData = JobsUtility.CreateJobReflectionData(typeof(JobNativeMultiHashMapVisitKeyValueProducer<TJob, TKey, TValue>), typeof(TJob), (ExecuteJobFunction)Execute);
                 }
 
                 return s_JobReflectionData;
@@ -407,7 +407,7 @@ namespace Unity.Rendering
                 UnsafeUtility.AddressOf(ref jobProducer)
                 , JobNativeMultiHashMapVisitKeyValueProducer<TJob, TKey, TValue>.Initialize()
                 , dependsOn
-                , ScheduleMode.Batched
+                , ScheduleMode.Parallel
             );
 
             return JobsUtility.ScheduleParallelFor(ref scheduleParams, hashMap.GetUnsafeBucketData().bucketCapacityMask + 1, minIndicesPerJobCount);

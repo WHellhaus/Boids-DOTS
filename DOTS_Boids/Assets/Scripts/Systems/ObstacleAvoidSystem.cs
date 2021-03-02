@@ -49,7 +49,7 @@ public unsafe class ObstacleAvoidSystem : SystemBase
                 Collider = (Collider*)Collider.GetUnsafePtr(),
                 Orientation = rot.Value,
                 Start = pos.Value,
-                End = pos.Value + (math.forward(rot.Value) * 5)
+                End = pos.Value + (math.forward(rot.Value) * 10f)
             };
         }).ScheduleParallel(Dependency).Complete();
 
@@ -62,10 +62,11 @@ public unsafe class ObstacleAvoidSystem : SystemBase
             if (!ccHits[entityInQueryIndex].Entity.Equals(Entity.Null))
             {
                 //ecb.AddComponent<avoidObstacleTag>(entityInQueryIndex, entity);
-                float3 normal = math.normalizesafe(ccHits[entityInQueryIndex].SurfaceNormal);
+                //Debug.Log("hit");
+                float3 normal = ccHits[entityInQueryIndex].SurfaceNormal;
                 float3 direction = math.forward(rot.Value);
                 float3 reflection = direction - 2 * (math.dot(direction, normal)) * normal;
-                accel.acceleration += math.clamp(reflection * bData.maxSpeed - mData.velocity, -bData.maxTurnSpeed, bData.maxTurnSpeed) * 10f;
+                accel.acceleration += math.clamp(math.normalizesafe(reflection) * bData.maxSpeed - mData.velocity, -bData.maxTurnSpeed, bData.maxTurnSpeed) * 15f;
             }
         }).ScheduleParallel(Dependency).Complete();
         //m_EndSimulationEcbSystem.AddJobHandleForProducer(Dependency);

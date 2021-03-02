@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.IO;
 using Unity.Serialization.Json;
 using UnityEditor;
-using UnityEditor.Experimental.AssetImporters;
+
 using UnityEngine;
 
 namespace Unity.Build
 {
-    [ScriptedImporter(Version, new[] { BuildConfiguration.AssetExtension
+    [UnityEditor.AssetImporters.ScriptedImporter(Version, new[] { BuildConfiguration.AssetExtension
 #pragma warning disable 618
         , BuildSettings.AssetExtension
 #pragma warning restore 618
     })]
-    sealed class BuildConfigurationScriptedImporter : ScriptedImporter
+    sealed class BuildConfigurationScriptedImporter : UnityEditor.AssetImporters.ScriptedImporter
     {
 #if UNITY_2020_1_OR_NEWER
         const int Version = 3;
@@ -21,7 +21,7 @@ namespace Unity.Build
         const int Version = 2;
 #endif
 
-        public override void OnImportAsset(AssetImportContext context)
+        public override void OnImportAsset(UnityEditor.AssetImporters.AssetImportContext context)
         {
             var asset = BuildConfiguration.CreateInstance();
             if (BuildConfiguration.DeserializeFromPath(asset, context.assetPath))

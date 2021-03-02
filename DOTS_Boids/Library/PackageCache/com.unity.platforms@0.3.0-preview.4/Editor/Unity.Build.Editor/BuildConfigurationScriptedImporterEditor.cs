@@ -5,7 +5,7 @@ using System.Linq;
 using Unity.Properties.Editor;
 using Unity.Properties.UI;
 using UnityEditor;
-using UnityEditor.Experimental.AssetImporters;
+
 using UnityEditor.Searcher;
 using UnityEditor.UIElements;
 using UnityEngine;
@@ -16,7 +16,7 @@ namespace Unity.Build.Editor
     using BuildConfigurationElement = HierarchicalComponentContainerElement<BuildConfiguration, IBuildComponent, IBuildComponent>;
 
     [CustomEditor(typeof(BuildConfigurationScriptedImporter))]
-    internal sealed class BuildConfigurationScriptedImporterEditor : ScriptedImporterEditor
+    internal sealed class BuildConfigurationScriptedImporterEditor : UnityEditor.AssetImporters.ScriptedImporterEditor
     {
         static class ClassNames
         {

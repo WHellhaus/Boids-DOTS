@@ -3,7 +3,7 @@ Entitlement-based licensing initiated
 [LicensingClient] Licenses Updated successfully in LicensingClient
 DisplayProgressbar: Unity license
 
-LICENSE SYSTEM [20201110 9:8:10] Next license update check is after 2020-09-09T23:54:47
+LICENSE SYSTEM [2020126 22:40:26] Next license update check is after 2020-09-09T23:54:47
 
 [Licensing::Module] Serial number assigned to: "SC-SPWC-B8A2-CDT2-EJJZ-XXXX"\n
  COMMAND LINE ARGUMENTS:
@@ -18,48 +18,48 @@ AssetImportWorker0
 -logFile
 Library/AssetImportWorker0.log
 -srvPort
-62302
+61166
 Successfully changed project path to: /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids
 /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44.64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 56.16 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2019.4.2f1 (20b4642a3455)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Assets
 GfxDevice: creating device client; threaded=0
-2020-11-10 09:08:10.879 Unity[61556:1890531] Color LCD preferred device: AMD Radeon Pro 555X (high power)
-2020-11-10 09:08:10.879 Unity[61556:1890531] Metal devices available: 2
-2020-11-10 09:08:10.879 Unity[61556:1890531] 0: AMD Radeon Pro 555X (high power)
-2020-11-10 09:08:10.879 Unity[61556:1890531] 1: Intel(R) UHD Graphics 630 (low power)
-2020-11-10 09:08:10.880 Unity[61556:1890531] Using device AMD Radeon Pro 555X (high power)
+2020-12-06 22:40:27.099 Unity[5838:314648] Color LCD preferred device: AMD Radeon Pro 555X (high power)
+2020-12-06 22:40:27.099 Unity[5838:314648] Metal devices available: 2
+2020-12-06 22:40:27.100 Unity[5838:314648] 0: AMD Radeon Pro 555X (high power)
+2020-12-06 22:40:27.100 Unity[5838:314648] 1: Intel(R) UHD Graphics 630 (low power)
+2020-12-06 22:40:27.100 Unity[5838:314648] Using device AMD Radeon Pro 555X (high power)
 Initializing Metal device caps: AMD Radeon Pro 555X
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56838
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000679 seconds.
+Registered in 0.000560 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.50 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.812 seconds
+- Completed reload, in  1.992 seconds
 Registering precompiled user dll's ...
-Registered in 0.085082 seconds.
+Registered in 0.079528 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
 Native extension for OSXStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 41.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
 AssemblyPaths cannot be null or empty
 at <empty>:line 0 
 (Filename:  Line: 0)
@@ -109,18 +109,18 @@ at <empty>:line 0
 (Filename:  Line: 0)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.892 seconds
+- Completed reload, in  1.899 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3002 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 424.5 MB.
-System memory in use after: 424.6 MB.
+Unloading 3003 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 424.6 MB.
+System memory in use after: 424.8 MB.
 
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3388.
-Total: 3.238987 ms (FindLiveObjects: 0.511732 ms CreateObjectMapping: 0.238935 ms MarkObjects: 2.410215 ms  DeleteObjects: 0.077516 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3392.
+Total: 2.878620 ms (FindLiveObjects: 0.466162 ms CreateObjectMapping: 0.168837 ms MarkObjects: 2.173154 ms  DeleteObjects: 0.069336 ms)
 
 ========================================================================
 Received Import Request.
@@ -201,11 +201,11 @@ UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(Asset
 
 Opening scene 'Assets/Scenes/SampleScene/BoidSubScene.unity additively'
 Loaded scene 'Assets/Scenes/SampleScene/BoidSubScene.unity'
-	Deserialize:            13.241 ms
-	Integration:            8.569 ms
-	Integration of assets:  0.812 ms
-	Thread Wait Time:       18.195 ms
-	Total Operation Time:   40.816 ms
+	Deserialize:            2.117 ms
+	Integration:            15.660 ms
+	Integration of assets:  0.549 ms
+	Thread Wait Time:       19.092 ms
+	Total Operation Time:   37.418 ms
 AssemblyPaths cannot be null or empty
 at <empty>:line 0 
 (Filename:  Line: 0)
@@ -294,32 +294,8 @@ AssemblyPaths cannot be null or empty
 at <empty>:line 0 
 (Filename:  Line: 0)
 
-AssemblyPaths cannot be null or empty
-at <empty>:line 0 
-(Filename:  Line: 0)
-
-AssemblyPaths cannot be null or empty
-at <empty>:line 0 
-(Filename:  Line: 0)
-
-AssemblyPaths cannot be null or empty
-at <empty>:line 0 
-(Filename:  Line: 0)
-
-AssemblyPaths cannot be null or empty
-at <empty>:line 0 
-(Filename:  Line: 0)
-
-AssemblyPaths cannot be null or empty
-at <empty>:line 0 
-(Filename:  Line: 0)
-
-AssemblyPaths cannot be null or empty
-at <empty>:line 0 
-(Filename:  Line: 0)
-
-Done importing asset: 'Assets/SceneDependencyCache/2e3ff78235a0a7e23f6ea07ae3a77b60.sceneWithBuildSettings' (target hash: 'eea0977cb70079b773d01a67fab69e67') in 0.934601 seconds
-  Import took 0.941877 seconds.
+Done importing asset: 'Assets/SceneDependencyCache/2e3ff78235a0a7e23f6ea07ae3a77b60.sceneWithBuildSettings' (target hash: '73e19404649558fad943b2700234099d') in 0.901727 seconds
+  Import took 0.910075 seconds.
 
 ========================================================================
 Received Prepare
@@ -328,36 +304,644 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000542 seconds.
+Registered in 0.000619 seconds.
 Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
 Native extension for OSXStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 37.12 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 49.77 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.948 seconds
+- Completed reload, in  2.097 seconds
 Registering precompiled user dll's ...
-Registered in 0.077889 seconds.
+Registered in 0.074353 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
 Native extension for OSXStandalone target not found
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.681 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 378.4 MB.
+System memory in use after: 378.6 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3402.
+Total: 3.129254 ms (FindLiveObjects: 0.427044 ms CreateObjectMapping: 0.182160 ms MarkObjects: 2.468596 ms  DeleteObjects: 0.050604 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000551 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.750 seconds
+Registering precompiled user dll's ...
+Registered in 0.080671 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.764 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 380.9 MB.
+System memory in use after: 381.1 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3412.
+Total: 3.234183 ms (FindLiveObjects: 0.508096 ms CreateObjectMapping: 0.176359 ms MarkObjects: 2.494765 ms  DeleteObjects: 0.054170 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000548 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.818 seconds
+Registering precompiled user dll's ...
+Registered in 0.076442 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.773 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 383.2 MB.
+System memory in use after: 383.4 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3422.
+Total: 2.998507 ms (FindLiveObjects: 0.454307 ms CreateObjectMapping: 0.170470 ms MarkObjects: 2.315771 ms  DeleteObjects: 0.057089 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000554 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.873 seconds
+Registering precompiled user dll's ...
+Registered in 0.075432 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.858 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 385.6 MB.
+System memory in use after: 385.8 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3432.
+Total: 3.002068 ms (FindLiveObjects: 0.428014 ms CreateObjectMapping: 0.117659 ms MarkObjects: 2.401543 ms  DeleteObjects: 0.054072 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000579 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.909 seconds
+Registering precompiled user dll's ...
+Registered in 0.075951 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.919 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 388.0 MB.
+System memory in use after: 388.2 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3442.
+Total: 2.969309 ms (FindLiveObjects: 0.457793 ms CreateObjectMapping: 0.185563 ms MarkObjects: 2.274384 ms  DeleteObjects: 0.050758 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000562 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.192 seconds
+Registering precompiled user dll's ...
+Registered in 0.075896 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.977 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 390.4 MB.
+System memory in use after: 390.6 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3452.
+Total: 3.654391 ms (FindLiveObjects: 0.826769 ms CreateObjectMapping: 0.178675 ms MarkObjects: 2.576410 ms  DeleteObjects: 0.071174 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000569 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.076 seconds
+Registering precompiled user dll's ...
+Registered in 0.075876 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.009 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 392.7 MB.
+System memory in use after: 392.9 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3462.
+Total: 2.775101 ms (FindLiveObjects: 0.420358 ms CreateObjectMapping: 0.141718 ms MarkObjects: 2.164173 ms  DeleteObjects: 0.048365 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000700 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.219 seconds
+Registering precompiled user dll's ...
+Registered in 0.075359 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.086 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 395.1 MB.
+System memory in use after: 395.3 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3472.
+Total: 2.786365 ms (FindLiveObjects: 0.424993 ms CreateObjectMapping: 0.141002 ms MarkObjects: 2.169822 ms  DeleteObjects: 0.050031 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000543 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.170 seconds
+Registering precompiled user dll's ...
+Registered in 0.074722 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.095 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 397.5 MB.
+System memory in use after: 397.7 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3482.
+Total: 2.789952 ms (FindLiveObjects: 0.419955 ms CreateObjectMapping: 0.141319 ms MarkObjects: 2.177201 ms  DeleteObjects: 0.050911 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000598 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.279 seconds
+Registering precompiled user dll's ...
+Registered in 0.075695 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.869 seconds
+- Completed reload, in  2.220 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 378.6 MB.
-System memory in use after: 378.8 MB.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 399.9 MB.
+System memory in use after: 400.1 MB.
 
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3403.
-Total: 2.956333 ms (FindLiveObjects: 0.444048 ms CreateObjectMapping: 0.175424 ms MarkObjects: 2.284054 ms  DeleteObjects: 0.051953 ms)
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3492.
+Total: 3.120450 ms (FindLiveObjects: 0.457614 ms CreateObjectMapping: 0.154482 ms MarkObjects: 2.452470 ms  DeleteObjects: 0.055072 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000552 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.193 seconds
+Registering precompiled user dll's ...
+Registered in 0.073050 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.210 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 402.3 MB.
+System memory in use after: 402.5 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3502.
+Total: 3.263141 ms (FindLiveObjects: 0.593536 ms CreateObjectMapping: 0.193908 ms MarkObjects: 2.419929 ms  DeleteObjects: 0.054883 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000578 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.310 seconds
+Registering precompiled user dll's ...
+Registered in 0.074101 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.281 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 404.7 MB.
+System memory in use after: 404.9 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3512.
+Total: 4.711723 ms (FindLiveObjects: 0.900865 ms CreateObjectMapping: 0.254803 ms MarkObjects: 3.482326 ms  DeleteObjects: 0.072248 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000537 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 40.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.342 seconds
+Registering precompiled user dll's ...
+Registered in 0.075794 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.492 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 407.1 MB.
+System memory in use after: 407.3 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3522.
+Total: 3.056517 ms (FindLiveObjects: 0.457306 ms CreateObjectMapping: 0.163346 ms MarkObjects: 2.379322 ms  DeleteObjects: 0.055419 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000572 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.447 seconds
+Registering precompiled user dll's ...
+Registered in 0.075022 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.369 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 409.5 MB.
+System memory in use after: 409.7 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3532.
+Total: 2.724955 ms (FindLiveObjects: 0.422469 ms CreateObjectMapping: 0.142240 ms MarkObjects: 2.109527 ms  DeleteObjects: 0.050290 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000543 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.454 seconds
+Registering precompiled user dll's ...
+Registered in 0.074593 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.428 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 411.8 MB.
+System memory in use after: 412.0 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3542.
+Total: 4.827110 ms (FindLiveObjects: 0.900046 ms CreateObjectMapping: 0.254907 ms MarkObjects: 3.598152 ms  DeleteObjects: 0.072488 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000549 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.500 seconds
+Registering precompiled user dll's ...
+Registered in 0.074066 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.462 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 414.2 MB.
+System memory in use after: 414.4 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3552.
+Total: 3.936549 ms (FindLiveObjects: 0.584175 ms CreateObjectMapping: 0.208860 ms MarkObjects: 3.071832 ms  DeleteObjects: 0.070640 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000580 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.507 seconds
+Registering precompiled user dll's ...
+Registered in 0.073479 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.476 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 416.6 MB.
+System memory in use after: 416.8 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3562.
+Total: 3.427301 ms (FindLiveObjects: 0.799809 ms CreateObjectMapping: 0.274532 ms MarkObjects: 2.295729 ms  DeleteObjects: 0.055783 ms)
 
 ========================================================================
 Received Prepare
@@ -370,32 +954,32 @@ Registered in 0.000555 seconds.
 Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
 Native extension for OSXStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.87 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 46.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.739 seconds
+- Completed reload, in  2.696 seconds
 Registering precompiled user dll's ...
-Registered in 0.076184 seconds.
+Registered in 0.078603 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
 Native extension for OSXStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.707 seconds
+- Completed reload, in  2.668 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 380.9 MB.
-System memory in use after: 381.1 MB.
+System memory in use before: 419.0 MB.
+System memory in use after: 419.2 MB.
 
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3413.
-Total: 3.086279 ms (FindLiveObjects: 0.445183 ms CreateObjectMapping: 0.164279 ms MarkObjects: 2.424019 ms  DeleteObjects: 0.052083 ms)
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3572.
+Total: 2.776262 ms (FindLiveObjects: 0.439652 ms CreateObjectMapping: 0.147968 ms MarkObjects: 2.138339 ms  DeleteObjects: 0.049777 ms)
 
 ========================================================================
 Received Prepare
@@ -404,36 +988,74 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000545 seconds.
+Registered in 0.001671 seconds.
 Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
 Native extension for OSXStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.747 seconds
+Registering precompiled user dll's ...
+Registered in 0.078452 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.616 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 421.4 MB.
+System memory in use after: 421.6 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3582.
+Total: 3.237280 ms (FindLiveObjects: 0.489534 ms CreateObjectMapping: 0.169250 ms MarkObjects: 2.520433 ms  DeleteObjects: 0.057023 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000653 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 40.99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.803 seconds
+- Completed reload, in  2.748 seconds
 Registering precompiled user dll's ...
-Registered in 0.079786 seconds.
+Registered in 0.076764 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
 Native extension for OSXStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.778 seconds
+- Completed reload, in  2.725 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 383.3 MB.
-System memory in use after: 383.5 MB.
+System memory in use before: 423.8 MB.
+System memory in use after: 424.0 MB.
 
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3423.
-Total: 2.963285 ms (FindLiveObjects: 0.440654 ms CreateObjectMapping: 0.171088 ms MarkObjects: 2.297523 ms  DeleteObjects: 0.053392 ms)
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3592.
+Total: 3.339512 ms (FindLiveObjects: 0.465722 ms CreateObjectMapping: 0.177469 ms MarkObjects: 2.636098 ms  DeleteObjects: 0.059324 ms)
 
 ========================================================================
 Received Prepare
@@ -442,18 +1064,124 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000553 seconds.
+Registered in 0.000614 seconds.
 Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
 Native extension for OSXStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.66 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 35.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.899 seconds
+- Completed reload, in  2.776 seconds
 Registering precompiled user dll's ...
-Registered in 0.080876 seconds.
+Registered in 0.072626 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.709 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 426.2 MB.
+System memory in use after: 426.4 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3602.
+Total: 3.432935 ms (FindLiveObjects: 0.644917 ms CreateObjectMapping: 0.199053 ms MarkObjects: 2.526930 ms  DeleteObjects: 0.060957 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000552 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.816 seconds
+Registering precompiled user dll's ...
+Registered in 0.073729 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.815 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 428.6 MB.
+System memory in use after: 428.8 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3612.
+Total: 3.179334 ms (FindLiveObjects: 0.490408 ms CreateObjectMapping: 0.184547 ms MarkObjects: 2.447268 ms  DeleteObjects: 0.056299 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000596 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.914 seconds
+Registering precompiled user dll's ...
+Registered in 0.073772 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.937 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 431.0 MB.
+System memory in use after: 431.2 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3622.
+Total: 3.327288 ms (FindLiveObjects: 0.476457 ms CreateObjectMapping: 0.181170 ms MarkObjects: 2.608843 ms  DeleteObjects: 0.059945 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000560 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
