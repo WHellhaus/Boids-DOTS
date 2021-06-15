@@ -17,7 +17,7 @@ public class QuadrantSystem : SystemBase
 {
     public static NativeMultiHashMap<float3, QuadData> quadrantMultiHashMap;
 
-    public readonly static int cellSize = 3;
+    public readonly static int cellSize = 5;
 
     public static float3 GetPositionHMKey(float3 position)
     {

@@ -34,9 +34,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_15e4304dcddd4e729930b788cb35362a: 1
+    - Vector1_c355ac65ad614f82a8fd363871b3ea12: 0.1
     m_Colors:
     - Color_83b05644d2a1423395f1f2292a6da2f9: {r: 0.48235294, g: 0.58431375, b: 0.7137255,
         a: 1}
     - Color_d4b29df3dc504964a77112611bcd6db2: {r: 0.98039216, g: 0.7019608, b: 0.58431375,
         a: 1}
+    - _SunDirection: {r: 0, g: 0, b: 0, a: 0}
+    - _WorldSpaceLightPos0: {r: -1, g: -1, b: 0, a: 0}
   m_BuildTextureStacks: []

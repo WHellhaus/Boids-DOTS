@@ -6,6 +6,7 @@ using Unity.Jobs;
 using Unity.Physics;
 using Collider = Unity.Physics.Collider;
 using SphereCollider = Unity.Physics.SphereCollider;
+using Random = Unity.Mathematics.Random;
 using Unity.Burst;
 using UnityEngine;
 
@@ -13,9 +14,6 @@ using UnityEngine;
 [UpdateBefore(typeof(MovementSystem))]
 public unsafe class ObstacleAvoidSystem : SystemBase
 {
-    //private EndSimulationEntityCommandBufferSystem m_EndSimulationEcbSystem;
-    //const int numViewDirections = 300;
-
     protected override void OnStartRunning()
     {
         //m_EndSimulationEcbSystem = World.GetOrCreateSystem<EndSimulationEntityCommandBufferSystem>();
@@ -55,74 +53,24 @@ public unsafe class ObstacleAvoidSystem : SystemBase
 
         // actually cast colliders
         ScheduleBatchColliderCast(in world, in ccInputs, ref ccHits).Complete();
-
+        var random = new Unity.Mathematics.Random((uint)UnityEngine.Random.Range(1, 100000));
+        float3 randOffset = random.NextFloat3Direction() * 0.2f;
         // check if colliders hit anything; if they did add an avoidObstacleTag component to them
         Entities.WithReadOnly(ccHits).ForEach((ref accelerationObstacles accel, in int entityInQueryIndex, in BoidData bData, in moveData mData, in Translation pos, in Rotation rot) =>
         {
             if (!ccHits[entityInQueryIndex].Entity.Equals(Entity.Null))
             {
-                //ecb.AddComponent<avoidObstacleTag>(entityInQueryIndex, entity);
                 //Debug.Log("hit");
                 float3 normal = ccHits[entityInQueryIndex].SurfaceNormal;
                 float3 direction = math.forward(rot.Value);
                 float3 reflection = direction - 2 * (math.dot(direction, normal)) * normal;
-                accel.acceleration += math.clamp(math.normalizesafe(reflection) * bData.maxSpeed - mData.velocity, -bData.maxTurnSpeed, bData.maxTurnSpeed) * 15f;
+                accel.acceleration += math.clamp(math.normalizesafe(reflection + randOffset) * bData.maxSpeed - mData.velocity, -bData.maxTurnSpeed, bData.maxTurnSpeed) * 15f;
             }
         }).ScheduleParallel(Dependency).Complete();
-        //m_EndSimulationEcbSystem.AddJobHandleForProducer(Dependency);
 
         // dispose of native arrays for reuse
         ccInputs.Dispose();
         ccHits.Dispose();
-
-        //var obsEntityCount = GetEntityQuery(new ComponentType[] { typeof(BoidData), typeof(avoidObstacleTag) }).CalculateEntityCount();
-        ////Debug.Log(obsEntityCount);
-        //NativeArray<ColliderCastInput> ccObsInputs = new NativeArray<ColliderCastInput>(obsEntityCount * 300, Allocator.TempJob);
-        //NativeArray<ColliderCastHit> ccObsHits = new NativeArray<ColliderCastHit>(obsEntityCount * 300, Allocator.TempJob);
-        ////NativeArray<float3> ccFreePositions = new NativeArray<float3>(obsEntityCount, Allocator.TempJob);
-
-        //// set up inputs for collider casts to find free position to move towards
-        //Entities.ForEach((ref ObstacleVectors obsVectors, in int entityInQueryIndex, in Translation pos, in Rotation rot, in avoidObstacleTag tag) =>
-        //{
-        //    int index = entityInQueryIndex * 300;
-        //    ref ObstacleVectorsBlobAsset directions = ref obsVectors.blobAsset.Value;
-        //    float4x4 trs = float4x4.TRS(pos.Value, rot.Value, new float3(0.5f));
-        //    for (int i=0; i < directions.vectorsArray.Length; i++)
-        //    {
-        //        //float3 endpoint = math.transform(trs, directions.vectorsArray[i]);
-        //        ccObsInputs[index+i] = new ColliderCastInput
-        //        {
-        //            Collider = (Collider*)Collider.GetUnsafePtr(),
-        //            Orientation = rot.Value,
-        //            Start = pos.Value,
-        //            End = math.transform(trs, directions.vectorsArray[i])*3
-        //        };
-        //    }
-        //}).ScheduleParallel(Dependency).Complete();
-
-        //ScheduleBatchColliderCast(world, ccObsInputs, ref ccObsHits).Complete();
-
-        //Entities.WithReadOnly(ccObsHits).WithReadOnly(ccObsInputs).ForEach((Entity entity, ref accelerationObstacles obs, in BoidData bData, in Translation pos, in Rotation rot, in moveData mData, in int entityInQueryIndex, in avoidObstacleTag tag) =>
-        //{
-        //    int index = entityInQueryIndex * 300;
-        //    float3 moveTowards = float3.zero;
-        //    for (int i = 0; i < 300; i++)
-        //    {
-        //        //Debug.Log(ccObsHits[index + i].Entity.Equals(Entity.Null) + ": " + (ccObsInputs[index + i].End / 5));
-        //        if (ccObsHits[index+i].Entity.Equals(Entity.Null))
-        //        {
-        //            moveTowards = ccObsInputs[index + i].End;     
-        //            break;
-        //        }
-        //    }
-        //    obs.acceleration += math.clamp(math.normalizesafe(moveTowards) * bData.maxSpeed - mData.velocity, -bData.maxTurnSpeed, bData.maxTurnSpeed) * 10f;
-        //    ecb.RemoveComponent<avoidObstacleTag>(entityInQueryIndex, entity);
-        //}).ScheduleParallel(Dependency).Complete();
-        //m_EndSimulationEcbSystem.AddJobHandleForProducer(Dependency);
-
-        //ccObsInputs.Dispose();
-        //ccObsHits.Dispose();
-        //ccFreePositions.Dispose();
     }
 
     private BlobAssetReference<Collider> CreateSphereCollider(in float3 center, in float radius, in CollisionFilter filter)
@@ -174,7 +122,6 @@ public unsafe class ObstacleAvoidSystem : SystemBase
 
                 float3 direction = new float3(math.sin(inclination) * math.cos(azimuth), math.sin(inclination) * math.sin(azimuth), math.cos(inclination));
                 float3 point = math.transform(trs, direction*5);
-                //Debug.Log(i + "direction: " + direction + "pnt: " + point + " pos: " + inputs[index].Start);
 
                 ColliderCastInput colliderCastInput = new ColliderCastInput
                 {

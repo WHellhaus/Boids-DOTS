@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637499691270000000
-    m_Hash: 429021673
+      ticks: 637508479940000000
+    m_Hash: 2554956861
   m_LockFileStatus:
     m_FilePath: /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637500676880000000
-    m_Hash: 1305183071
+      ticks: 637508479950000000
+    m_Hash: 1087421353
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -714,6 +714,7 @@ m_PackageAssets:
         - 3.0.2
         - 3.0.3
         - 3.0.4
+        - 3.0.5
         compatible:
         - 1.0.2
         - 1.0.6
@@ -737,6 +738,7 @@ m_PackageAssets:
         - 3.0.2
         - 3.0.3
         - 3.0.4
+        - 3.0.5
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -1207,6 +1209,90 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.purchasing.git
         revision: ab79b0c58006f61970a2136b4cba9ca76fde0edc
         path: 
+    - packageId: com.unity.recorder@2.5.4
+      testable: 0
+      isDirectDependency: 1
+      version: 2.5.4
+      source: 1
+      resolvedPath: /Users/wolfgang_hs/Documents/Personal/Unity/Boids-DOTS/DOTS_Boids/Library/PackageCache/com.unity.recorder@2.5.4
+      assetPath: Packages/com.unity.recorder
+      name: com.unity.recorder
+      displayName: Unity Recorder
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'The Unity Recorder allows you to capture and save data from the
+        Unity Editor during Play Mode: animations, videos, images, audio, and more.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 2.0.0-preview.6
+        - 2.0.1-preview.1
+        - 2.0.2-preview.3
+        - 2.0.3-preview.1
+        - 2.1.0-preview.1
+        - 2.2.0-preview.4
+        - 2.3.0-preview.3
+        - 2.4.0-preview.1
+        - 2.5.0-pre.1
+        - 2.5.2
+        - 2.5.4
+        - 2.6.0-exp.3
+        - 2.6.0-exp.4
+        compatible:
+        - 2.0.0-preview.6
+        - 2.0.1-preview.1
+        - 2.0.2-preview.3
+        - 2.0.3-preview.1
+        - 2.1.0-preview.1
+        - 2.2.0-preview.4
+        - 2.3.0-preview.3
+        - 2.4.0-preview.1
+        - 2.5.0-pre.1
+        - 2.5.2
+        - 2.5.4
+        - 2.6.0-exp.3
+        - 2.6.0-exp.4
+        verified: 
+      dependencies:
+      - name: com.unity.timeline
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.timeline
+        version: 1.2.6
+      keywords:
+      - unity
+      - recorder
+      - recording
+      - capture
+      - video
+      - animation
+      - clip
+      - images
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637486643630000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.recorder.git
+        revision: d0d9597949e5c4e5563458d6a1af7b791b9327e1
+        path: 
     - packageId: com.unity.render-pipelines.universal@10.2.2
       testable: 0
       isDirectDependency: 1
@@ -1261,6 +1347,7 @@ m_PackageAssets:
         - 10.2.1
         - 10.2.2
         - 10.3.1
+        - 10.3.2
         compatible:
         - 10.2.2
         verified: 10.2.2
@@ -1582,11 +1669,13 @@ m_PackageAssets:
         - 1.1.19
         - 1.1.20
         - 1.1.22
+        - 1.1.24
         compatible:
         - 1.1.19
         - 1.1.20
         - 1.1.22
-        verified: 1.1.22
+        - 1.1.24
+        verified: 1.1.24
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.5
@@ -3981,6 +4070,7 @@ m_PackageAssets:
         - 10.2.1
         - 10.2.2
         - 10.3.1
+        - 10.3.2
         compatible:
         - 10.2.2
         verified: 10.2.2
@@ -4122,6 +4212,7 @@ m_PackageAssets:
         - 10.2.1
         - 10.2.2
         - 10.3.1
+        - 10.3.2
         compatible:
         - 10.2.2
         verified: 10.2.2
@@ -4564,6 +4655,7 @@ m_PackageAssets:
         - 2.4.1-preview
         - 2.5.1-preview
         - 2.6.0-preview
+        - 2.7.0-preview
         compatible:
         - 1.3.3-preview
         - 2.0.1-preview
@@ -4579,6 +4671,7 @@ m_PackageAssets:
         - 2.4.1-preview
         - 2.5.1-preview
         - 2.6.0-preview
+        - 2.7.0-preview
         verified: 1.3.3-preview
       dependencies:
       - name: com.unity.test-framework
@@ -4671,6 +4764,7 @@ m_PackageAssets:
         - 1.4.3-preview
         - 1.5.0-preview
         - 1.6.0-preview
+        - 1.7.0-preview
         compatible:
         - 0.1.14-preview.2
         - 0.1.18-preview.2
@@ -4704,6 +4798,7 @@ m_PackageAssets:
         - 1.4.3-preview
         - 1.5.0-preview
         - 1.6.0-preview
+        - 1.7.0-preview
         verified: 
       dependencies:
       - name: nuget.mono-cecil
@@ -4792,6 +4887,7 @@ m_PackageAssets:
         - 1.6.0-preview
         - 1.6.1-preview
         - 1.6.2-preview
+        - 1.7.0-preview.1
         compatible:
         - 0.2.1-preview
         - 0.3.0-preview
@@ -4816,6 +4912,7 @@ m_PackageAssets:
         - 1.6.0-preview
         - 1.6.1-preview
         - 1.6.2-preview
+        - 1.7.0-preview.1
         verified: 
       dependencies:
       - name: com.unity.collections
@@ -5617,6 +5714,7 @@ m_PackageAssets:
         - 1.5.1-preview.1
         - 1.6.0-preview
         - 1.6.2-preview.1
+        - 1.7.0-preview
         compatible:
         - 1.0.0-preview.5
         - 1.1.0-preview
@@ -5632,6 +5730,7 @@ m_PackageAssets:
         - 1.5.1-preview.1
         - 1.6.0-preview
         - 1.6.2-preview.1
+        - 1.7.0-preview
         verified: 
       dependencies:
       - name: com.unity.properties

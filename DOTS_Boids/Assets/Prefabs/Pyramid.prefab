@@ -98,14 +98,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b33186452ca49427c9b931320accace6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpeed: 2
-  maxSpeed: 10
-  maxTurnSpeed: 3
+  minSpeed: 4
+  maxSpeed: 7
+  maxTurnSpeed: 4
   perceptionRadius: 0
   sizeRadius: 1
   alignmentWeight: 0.7
-  cohesionWeight: 0.5
-  separationWeight: 1
+  cohesionWeight: 0.7
+  separationWeight: 1.5
   acceleration:
     x: 0
     y: 0
